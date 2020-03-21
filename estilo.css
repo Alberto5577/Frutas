@@ -19,13 +19,85 @@ p.p1 {
 }
 p.p2 {
     padding: 5px 0px;
-    ba
+    background-color: lightgray;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
 }
-/* * * * * * * * * * * * * * * * * * */
-/* A11 */
-/* * * * * * * * * * * * * * * * * * */
+p.p3{
+    text-align: justify;
+}
+        /*******/
+        /* A11 */
+        /*******/
 article.a11 p.p3  {
     width: 200px;
     margin: 10px;
     border: 2px solid black;
+}
+        /*******/
+        /* A12 */
+        /*******/
+article.a12 {
+    justify-content: space-around;
+}
+article.a12 p.p3 {
+    width: 200px;
+    margin: 10px;
+    border: solid 2px black;
+}
+        /*******/
+        /* A13 */
+        /*******/
+article.a13 {
+    align-items: center;
+}
+article.a13 p.p3 {
+    width: 200px;
+    margin: 10px;
+    border: solid 2px black;
+}
+        /*******/
+        /* A21 */
+        /*******/
+article.a21 div.ficha {
+    width: 200px;
+}
+        /*******/
+        /* A22 */
+        /*******/
+article.a22 {
+    align-items: center;
+}
+article.a22 div.ficha {
+    width: 200px;
+}
+        /*******/
+        /* A23 */
+        /*******/
+article.a23 div.ficha{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+article.a23 p.p1 {
+    font-size: 400%;
+}
+        /*******/
+        /* A24 */
+        /*******/
+article.a24 {
+    align-items: center;
+}
+article.a24 div.ficha {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+article.a24 p.p1 {
+    font-size: 400%;
+}
+article.a24 p.p3 {
+    background-color: lightgray;
+    border-left: 2px solid black;
 }
